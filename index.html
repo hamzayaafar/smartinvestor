@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <img src="Smart.png" id="logo">
+  <p id="instructions"> Need to check up on stock? <br> Insert the information below to see the daily price information and recent news articles mentioning that stock </p>
+
+  <div class="container">
+    <div class="input-group">
+        <p>Insert Stock Symbol Here (5 Searches per minute allowed)</p>
+        <input id="stockInput" placeholder="e.g. AAPL ">
+    </div>
+    <div class="input-group">
+        <p>Insert number of news articles you'd like</p>
+        <input id="topInput" placeholder="e.g. 3">
+    </div>
+  </div>
+  <button id='submit'>Analyze</button>
+  <p id='scrollinst'> </p>
+  <div id="scroll-box">
+    <div id="scrollBox1">
+    </div>
+    <div id="scrollBox2">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
